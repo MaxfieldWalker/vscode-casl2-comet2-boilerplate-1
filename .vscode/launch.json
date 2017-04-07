@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "comet2",
+            "request": "launch",
+            "name": "Debug current file",
+            "program": "${file}",
+            "stopOnEntry": false,
+            "casl2Options": {
+                "allowNegativeValueForEffectiveAddress": "${config.casl2.allowNegativeValueForEffectiveAddress}"
+            },
+            "comet2Options": {
+                "allowSelfModifying": false
+            }
+        }
+    ]
+}
